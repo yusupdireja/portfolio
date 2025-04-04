@@ -2,6 +2,8 @@
 @import 'tailwindcss';
 
 #app {
+  background-color: black;
+  color: #b1aead;
   /* margin: 0 auto; */
   /* padding: 2rem; */
   /* font-weight: normal;

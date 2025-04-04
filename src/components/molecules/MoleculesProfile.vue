@@ -18,9 +18,9 @@ const props = defineProps({
 <template>
   <div class="flex items-center gap-4">
     <img class="w-10 h-10 rounded-full" :src="props.image" alt="" />
-    <div class="font-medium dark:text-white">
-      <div>{{ props.name }}</div>
-      <div class="text-sm text-gray-500 dark:text-gray-400">{{ props.desc }}</div>
+    <div>
+      <div class="text-white font-medium!">{{ props.name }}</div>
+      <div class="text-sm">{{ props.desc }}</div>
     </div>
   </div>
 </template>
