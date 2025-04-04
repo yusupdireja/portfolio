@@ -2,10 +2,10 @@
 @import 'tailwindcss';
 
 #app {
-  margin: 0 auto;
-  padding: 2rem;
-  font-weight: normal;
-  place-items: center;
+  /* margin: 0 auto; */
+  /* padding: 2rem; */
+  /* font-weight: normal;
+  place-items: center; */
 }
 
 /* #app {

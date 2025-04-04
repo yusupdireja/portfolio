@@ -32,7 +32,7 @@ const props = defineProps({
 })
 
 const buttonClasses = computed(() => [
-  'px-4 py-2 rounded-lg font-medium flex items-center justify-center transition',
+  'px-4 py-2 rounded-lg font-medium flex items-center justify-center transition cursor-pointer',
   {
     [`${props.bgColor} ${props.textColor ?? 'text-black'} shadow-md hover:${props.bgColor}`]:
       props.type === AtomsButtonType.ELEVATED && !props.disabled,
